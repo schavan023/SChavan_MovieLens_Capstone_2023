@@ -362,7 +362,7 @@ plot <- ggplot(data = ratings_per_movie, aes(x = n)) +
 # Display the plot for number of ratings per movie.
 print(plot)
 ```
-![Number of Ratings per Movie](/scicomp/home-pure/rui5/Desktop/Intro-to-R/cervical_cancer_dataset/number_of_ratings_per_movie.png)
+![Number of Ratings per Movie](Desktop/Intro-to-R/cervical_cancer_dataset/number_of_ratings_per_movie.png)
 The number of ratings per movie plot is heavily skewed to the right and that there are some movies that are recieving disporportionate amount of attention.
 
 ###  Calculates the number of ratings per user
@@ -382,7 +382,7 @@ plot2 <- ggplot(data = ratings_per_user, aes(x = n)) +
 print(plot2)
 
 ```
-![Number of Ratings per user](/scicomp/home-pure/rui5/Desktop/Intro-to-R/cervical_cancer_dataset/number_of_ratings_per_user.png)
+![Number of Ratings per user](Desktop/Intro-to-R/cervical_cancer_dataset/number_of_ratings_per_user.png)
 Similar to the above plot, the number of ratings per user is skewed to the right, with some users making very few reviews and some users reviewing up to thousands of movies.
 
 ###  Plot the ratings for each movie genre.
@@ -419,7 +419,7 @@ print(plot)
 
 ```
 
-![Number of Ratings per Genre](/scicomp/home-pure/rui5/Desktop/Intro-to-R/cervical_cancer_dataset/number_of_ratings_for_each_genre.png)
+![Number of Ratings per Genre](cervical_cancer_dataset/number_of_ratings_for_each_genre.png)
 The above plot shows the number of ratings for each genre, with the drama (war) Genre with the highest ratings followed by Comedy and Action. 
 
 ### Creating training and test sets using edx dataset
