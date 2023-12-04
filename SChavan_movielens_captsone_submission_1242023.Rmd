@@ -429,7 +429,6 @@ The Movielens dataset is split into edx (training) and final_holdout_test(valida
 #################################################
 ## Creating training and test sets using edx data set.
 ##########################################################
-
 # Set a random seed for reproducibility
 set.seed(1, sample.kind = "Rounding")
 # Create the test set index
